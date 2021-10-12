@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link"
 import HeroImage from "../assets/outbox_hero_img.png";
 
 const Hero = () => {
@@ -17,15 +18,16 @@ const Hero = () => {
               communicate well.
             </p>
             <div className="my-5 my-xl-5">
-              <a href="/enrollment"> Enroll Now </a>
+              <Link href="/enrollment"> Enroll Now </Link>
             </div>
             <p>
               <br />
               <strong>In Partnership with:</strong> <br />
-              <img
+              <Image
                 src="https://outbox.co.ug/themes/obx/assets/img/outbox.png"
-                width="10%"
+                width="40%"
                 alt="Ingressive for good logo"
+                height="20px"
               />
             </p>
           </div>

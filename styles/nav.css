@@ -49,8 +49,26 @@
     color: rgb(0 114 161) !important;
     border: 1px solid rgb(0 114 161) !important;
   }
+
+  .nav-link a {
+    text-decoration: none;
+  }
+
+  .navigation .nav-button a {
+    color: white;
+  }
+  .navigation .nav-button:hover {
+    color: red;
+  }
+
+  .nav-button:hover {
+    background-color: transparent;
+    color: var(--main-blue);
+    border: 2px solid var(--main-blue);
+    text-decoration: none;
+  }
   
-  
+
   .navigation .container {
     max-width: 1238px;
     overflow: hidden;

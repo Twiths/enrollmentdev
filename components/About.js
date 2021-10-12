@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from "next/link"
 import AboutImage from '../assets/about_img.png';
 
 
@@ -18,7 +19,7 @@ const About = () => {
                 <h2 className="mb-4 mt-4 mt-lg-0">Who Should Apply</h2>
                 <p className="pr-0 pr-lg-5">
                   Anybody can apply. Outbox Edu itself focuses on participants with willingness to learn
-                  if you have no prior experience, we still encourage you to apply you'll learn a lot
+                  if you have no prior experience, we still encourage you to apply you will learn a lot
                   from the experience.
                   <br />
                   <br />
@@ -28,12 +29,12 @@ const About = () => {
                     <li>If you are looking for a challenge</li>
                   </ul>
                   The program is a fun-filled experience that runs like a game, join us, and we
-                  promise you'll come out better, even if you're unable to complete the program.
+                  promise you will come out better, even if you are unable to complete the program.
                 </p>
                 <div className="about__link mt-1 mt-lg-5 btn">
-                  <a href="/enrollment" style={{ textDecoration: 'none'}}>
+                  <Link href="/enrollment" style={{ textDecoration: 'none'}}>
                     Enroll Now
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

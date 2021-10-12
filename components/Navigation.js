@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link"
 import logo from "../public/images/edu.png";
 
 const Navigation = () => {
@@ -7,9 +8,9 @@ const Navigation = () => {
       <header>
         <div className="container">
           <nav className="navbar navbar-expand-lg navbar-light px-2">
-            <a className="navbar-brand" href="/">
+            <Link className="navbar-brand" href="/">
               <Image src={logo} alt="brand logo" className="brand-logo" width="50" height="50"/>
-            </a>
+            </Link>
             <button
               className="navbar-toggler border-0"
               type="button"
@@ -19,25 +20,27 @@ const Navigation = () => {
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              <img
+              <Image
                 src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAAANElEQVRIiWNgGAXDHjDCGM+Ntf9T02DJs1cZGRgYGJioaegoGJxgNBWNAsrBaCoaBUMAAAA0PgwKKjWpawAAAABJRU5ErkJggg=="
                 alt="dropdown menu"
+                layout="fill"
               />
             </button>
             <div className="collapse navbar-collapse" id="navbarDropdown">
               <ul className="navbar-nav ml-auto mt-2 mt-lg-0">
                 <li className="nav-item active">
-                  <a aria-current="page" className="nav-link ml-lg-3 pb-1 activeLink" href="/">
+                <div className="nav-link ml-lg-3 pb-1 activeLink">
+                  <Link aria-current="page" href="/" style={{ textDecoration: 'none'}}>
                     Home
-                  </a>
+                  </Link>
+                  </div>
                 </li>
                 <li className="nav-item">
-                  <a
-                    className="nav-link nav-button btn mt-3 ml-lg-4 mt-lg-0 h-btn px-4 text-white"
-                    href="/enrollment"
-                  >
+                <div className="nav-link nav-button btn mt-3 ml-lg-4 mt-lg-0 h-btn px-4 text-white">
+                  <Link href="/enrollment" style={{ textDecoration: 'none'}} >
                     Enroll
-                  </a>
+                  </Link>
+                  </div>
                 </li>
               </ul>
             </div>

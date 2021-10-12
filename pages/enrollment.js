@@ -127,7 +127,7 @@ export default function Enrollment() {
                   </div>
                   <div className="col-md-6">
                     <div className="form-group">
-                      <label for="gender">Gender</label>
+                      <label htmlFor="gender">Gender</label>
                       <select
                         className="custom-select"
                         id="gender"
@@ -145,7 +145,7 @@ export default function Enrollment() {
                   </div>
                   <div className="col-md-6">
                     <div className="form-group">
-                      <label for="age">Select Age range</label>
+                      <label htmlFor="age">Select Age range</label>
                       <select
                         className="custom-select"
                         id="age"
@@ -166,7 +166,7 @@ export default function Enrollment() {
                   </div>
                   <div className="col-md-6">
                     <div className="form-group">
-                      <label for="level">Experience Level</label>
+                      <label htmlFor="level">Experience Level</label>
                       <select
                         className="custom-select"
                         id="level"
@@ -198,7 +198,7 @@ export default function Enrollment() {
                   </div>
                   <div className="col-md-6">
                     <div className="form-group">
-                      <label for="eduLevel">Educational Level</label>
+                      <label htmlFor="eduLevel">Educational Level</label>
                       <select
                         className="custom-select"
                         id="eduLevel"
@@ -224,7 +224,7 @@ export default function Enrollment() {
                   </div>
                   <div className="col-md-6">
                     <div className="form-group">
-                      <label for="employmentStatus">Employment status</label>
+                      <label htmlFor="employmentStatus">Employment status</label>
                       <select
                         className="custom-select"
                         id="employmentStatus"
@@ -235,11 +235,11 @@ export default function Enrollment() {
                         <option value="Employed">Employed</option>
                         <option value="Unemployed">Unemployed</option>
                         <option value="Self-Employed">Self-Employed</option>
-                        <option value="Student (not eligible for employment)">
-                          Student (not eligible for employment)
+                        <option value="Student (not eligible htmlFor employment)">
+                          Student (not eligible htmlFor employment)
                         </option>
-                        <option value="Minor (not eligible for employment)">
-                          Minor (not eligible for employment)
+                        <option value="Minor (not eligible htmlFor employment)">
+                          Minor (not eligible htmlFor employment)
                         </option>
                       </select>
                       <div className="invalid-feedback" role="alert">

@@ -82,6 +82,19 @@
     background-color: var(--about-BG);
     color: var(--text-color);
   }
+
+  .nav_link a {
+    text-decoration: none;
+    text-decoration: none;
+    font-size: 1rem;
+    background-color: var(--main-blue);
+    color: white;
+    padding: 0.68rem 1.75rem;
+    border: 2px solid var(--main-blue);
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+  }
   
   .about__link a {
     text-decoration: none;

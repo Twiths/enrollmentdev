@@ -1,5 +1,6 @@
 // import Homepage from "./landingpage/Homepage"
 import Head from "next/head";
+import Link from "next/link"
 import Layout from "../components/layout/Layout";
 import Hero from "../components/Hero";
 import About from "../components/About";
@@ -24,7 +25,7 @@ export default function Home() {
       <section className="banner my-5 ml-0">
         <div className="container d-flex justify-content-center align-items-center flex-column">
           <h2 className="mb-4 text-center">Break into the tech industry like a pro</h2>
-          <a href="/enrollment"> Enroll Today</a>
+          <Link href="/enrollment">Enroll Today</Link>
         </div>
       </section>
     </Layout>

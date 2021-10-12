@@ -40,40 +40,40 @@ const MainNavigation = () => {
 
         <ul className="navbar-nav flex-row d-none d-md-flex">
           <li className="nav-item me-3 me-lg-1">
-            <a className="nav-link active" aria-current="page" href="/">
+            <Link className="nav-link active" aria-current="page" href="/">
               Home
-            </a>
+            </Link>
           </li>
           <li className="nav-item me-3 me-lg-1">
-            <a className="nav-link" href="#">
+            <Link className="nav-link" href="#">
               About
-            </a>
+            </Link>
           </li>
           <li className="nav-item me-3 me-lg-1">
-            <a className="nav-link" href="#">
+            <Link className="nav-link" href="#">
               Why Edu
-            </a>
+            </Link>
           </li>
         </ul>
         <ul className="navbar-nav flex-row">
         {!currentUser ? (
           <li className="nav-item me-3 me-lg-1">
-            <a className="nav-link btn btn-outline btn-rounded px-4" href="/log-in">
+            <Link className="nav-link btn btn-outline btn-rounded px-4" href="/log-in">
               Login
-            </a>
+            </Link>
           </li>) : <li className="nav-item me-3 me-lg-1">
            
-              <a  className="nav-link btn btn-outline btn-rounded px-4" onClick={handleClick}>Logout</a>
+              <Link  className="nav-link btn btn-outline btn-rounded px-4" onClick={handleClick}>Logout</Link>
          
           </li>}
           <li className="nav-item me-3 me-lg-1">
-            <a
+            <Link
               className="nav-link nav-button btn mt-3 ml-lg-4 mt-lg-0n h-btn px-4 text-white"
               href="https://docs.google.com/forms/d/188bTILVRxK4gcd-tJqKd9jNtmq3X0CvHB6U-MSY9d54/edit"
               style={{ backgroundColor: "#0072A1", color: "white" }}
             >
               Enroll
-            </a>
+            </Link>
           </li>
         </ul>
       </div>
