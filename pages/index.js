@@ -20,7 +20,6 @@ export default function Home() {
       <Hero />
       <About />
       <Program />
-      <EventsList />
       <DemoCarouse />
       <section className="banner my-5 ml-0">
         <div className="container d-flex justify-content-center align-items-center flex-column">

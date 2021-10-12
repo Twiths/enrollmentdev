@@ -1,0 +1,203 @@
+.curriculumTopHeading {
+    background-color: rgba(242, 235, 233, 0.6);
+    padding-top: 3rem;
+    padding-bottom: 6rem;
+  }
+  .curriculumContainer {
+    max-width: 1238px !important;
+    overflow: hidden !important;
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+  }
+  c-container {
+    max-width: 1238px !important;
+    overflow: hidden !important;
+  }
+  
+  .curriculumHeading1 {
+    color: #e7332b;
+    font-weight: 400;
+    font-size: 14px;
+  }
+  
+  .curriculumHeading2 {
+    font-family: "Averta-Bold";
+    font-size: 2em;
+    color: #514949;
+    font-weight: 600;
+    line-height: 48px;
+  }
+  
+  /*Arrow down Icons*/
+  .c-angleIcon {
+    font-size: 20px;
+    color: #dcdcdc;
+  }
+  
+  /* curriculum page*/
+  .c-home32 {
+    width: 800px;
+    max-width: 97%;
+    min-height: 600px;
+  }
+  
+  .btn {
+    outline: none !important;
+  }
+  
+  .c-home32-cont {
+    /*width: 912px;*/
+    /*max-width: 99%;*/
+    min-width: 100%;
+    /* min-height: 200px; */
+    background: rgba(247, 243, 242);
+    margin-top: 10px;
+    padding: 20px !important;
+    transition: 0.4s;
+  }
+  
+  .c-home32-cont:hover {
+    box-shadow: 2px 3px 8px rgb(221, 208, 208);
+    transform: scale(1.005);
+  }
+  
+  .c-course-title {
+    font-family: "Averta-Bold";
+    color: #514949;
+    font-size: 1.25em;
+    font-weight: 800;
+  }
+  
+  .c-course-text {
+    font-size: 1em;
+    color: #514949;
+  }
+  
+  .c-home32-btns {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .c-home32-btns .btn1 {
+    background-color: #fff;
+    border-radius: 0px;
+    padding: 10px;
+    outline: none;
+  }
+  
+  .c-home32-btns .btn2 {
+    outline: none;
+    padding: 12px 30px;
+    color: #fff;
+    background: #e7332b;
+    border-radius: 0px;
+    margin-left: 0px;
+    margin-top: 15px;
+  }
+  
+  .c-date {
+    font-family: "Averta-Bold";
+    font-weight: 400;
+    padding-bottom: 40px;
+  }
+  .c-searchbox {
+    width: 44px;
+    height: 44px;
+    background: #f2ebe9;
+    display: inline-block;
+    position: relative;
+  }
+  .c-pr-6 {
+    padding-right: 2.2em;
+  }
+  .c-searchicon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  @media only screen and (min-width: 775px) {
+    .c-home32-btns .btn2 {
+      margin-left: 30px;
+      margin-top: 0;
+    }
+    .c-jumbotron {
+      padding-bottom: 4em !important;
+    }
+  }
+  
+  /* Bootstrap code for nav section */
+  
+  .c-sub-title {
+    color: #514949;
+    font-weight: 600;
+    font-size: 16px;
+    white-space: nowrap;
+  }
+  
+  .c-track-title {
+    font-family: "Averta-Bold";
+    font-weight: 800;
+    color: #514949;
+    font-size: 1.5rem;
+  }
+  
+  .c-track-text {
+    font-size: 1.125rem;
+    color: #444444;
+    font-size: 18px;
+  }
+  
+  .c-card-header {
+    background-color: rgb(247, 243, 242) !important;
+    cursor: pointer;
+  }
+  
+  .c-card-header:hover {
+    background-color: #e7332b !important;
+    color: #fff !important;
+  }
+  
+  .c-sub-title:active,
+  .c-sub-title:hover {
+    color: #fff !important;
+  }
+  
+  .cu-list-div {
+    background-color: #dcf4f8;
+    font-size: 18px;
+  }
+  .cu-list-div2 {
+    background-color: #effff4;
+  }
+  .cu-list-div3 {
+    background-color: #f0f6f6;
+  }
+  .cu-btn-white {
+    background-color: #fff;
+    color: black;
+    padding: 12px 10px;
+    padding-left: 28px;
+    border-radius: 0px;
+  }
+  .c-jumbotron {
+    padding-bottom: 0;
+  }
+  .tabcontent {
+    animation: fadeEffect 1s; /* Fading effect takes 1 second */
+  }
+  
+  /* Go from zero to full opacity */
+  @keyframes fadeEffect {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .pointer {
+    cursor: pointer;
+  }
+  

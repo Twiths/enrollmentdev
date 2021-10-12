@@ -2,6 +2,7 @@
 import '../styles/nav.css'
 import '../styles/landing.css'
 import '../styles/enrollment.css'
+import '../styles/curriculum.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Head from "next/head";
 import { AuthProvider } from "../context/Context";

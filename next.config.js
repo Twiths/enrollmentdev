@@ -10,7 +10,7 @@ module.exports = {
     REACT_APP_FIREBASE_MEASUREMENT_ID : 'G-XC1FX816H7',
   },
   images: {
-    domains: ['images.unsplash.com', 'outbox.co.ug']
+    domains: ['images.unsplash.com', 'outbox.co.ug', 'res.cloudinary.com']
 },
 async redirects() {
     return [
