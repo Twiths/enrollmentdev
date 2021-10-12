@@ -1,12 +1,15 @@
-import { useState } from 'react'
+import { useState } from "react";
 import Head from "next/head";
 import Navigation from "../components/Navigation";
 import Footer from "../components/Footer";
 import Image from "next/image";
-import Frontend from "../components/Frontend"
+import Frontend from "../components/Frontend";
 import Backend from "../components/Backend";
 import Design from "../components/Design";
 import SideAcordion from "../components/SideAcordion";
+import Tabs from "react-bootstrap/Tabs";
+import Tab from "react-bootstrap/Tab";
+import { frontend } from "../utils/curriculum";
 
 const Curriculum = () => {
   const [scope, setScope] = useState("html");
@@ -20,17 +23,14 @@ const Curriculum = () => {
         <div className="text-center heading-title">
           <p className="d-block  curriculumHeading1">PROGRAM CURRICULUM</p>
           <p className="d-block curriculumHeading2">
-            Gain enough knowledge to help you get <br /> started in the tech industry 
+            Gain enough knowledge to help you get <br /> started in the tech industry
           </p>
         </div>
       </section>
       <section className="container curriculumContainer  d-none d-md-block d-sm-block">
         <div className="row">
           <div className="col-md-12 col-12 justify-content-end c-pr-6 d-flex mt-4">
-            <span className="pr-3 c-date pt-2">
-              {/* <DateTime /> */}
-            </span>
-            
+            <span className="pr-3 c-date pt-2">{/* <DateTime /> */}</span>
           </div>
         </div>
       </section>
@@ -47,9 +47,35 @@ const Curriculum = () => {
                 not an exhaustive list.
               </p>
             </div>
-            <Frontend scope={scope} />
-            <Backend scope={scope} />
-            <Design />
+            <Tabs>
+              <Tab eventKey="html" title="HTML">
+                {frontend["html"].map((data, idx) => (
+                  <div className="c-home32-cont" key={idx}>
+                    <p className="c-course-title mb-0">
+                      {idx + 1}. {data.title}
+                    </p>
+                  </div>
+                ))}
+              </Tab>
+              <Tab eventKey="css" title="CSS">
+              {frontend["css"].map((data, idx) => (
+                  <div className="c-home32-cont" key={idx}>
+                    <p className="c-course-title mb-0">
+                      {idx + 1}. {data.title}
+                    </p>
+                  </div>
+                ))}
+              </Tab>
+              <Tab eventKey="javascript" title="Javascript">
+              {frontend["js"].map((data, idx) => (
+                  <div className="c-home32-cont" key={idx}>
+                    <p className="c-course-title mb-0">
+                      {idx + 1}. {data.title}
+                    </p>
+                  </div>
+                ))}
+              </Tab>
+            </Tabs>
           </div>
         </div>
       </div>

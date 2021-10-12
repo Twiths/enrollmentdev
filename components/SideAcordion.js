@@ -1,3 +1,4 @@
+
 const SideAcordion = ({ setScope }) => {
   return (
     <div className="col-lg-3 mt-2 d-block mx-auto">

@@ -1,20 +1,20 @@
-import { frontend } from '../utils/curriculum'
+import { frontend } from "../utils/curriculum";
+import Tabs from "react-bootstrap/Tabs";
+import Tab from "react-bootstrap/Tab";
 
 const Frontend = ({ scope }) => {
   return (
-    <div
-      className=" tabcontent collapseTwo collapse "
-      id="headingTwo"
-      data-parent="#myAccordion"
-    >
-      {(frontend[scope] || frontend["html"]).map((data, idx) => (
-        <div className="c-home32-cont" key={idx}>
-          <p className="c-course-title mb-0">
-            {idx + 1}. {data.title}
-          </p>
-        </div>
-      ))}
-    </div>
+    <Tabs>
+      <Tab eventKey={scope} title={scope.toUpperCase()}>
+        {frontend[scope].map((data, idx) => (
+          <div className="c-home32-cont" key={idx}>
+            <p className="c-course-title mb-0">
+              {idx + 1}. {data.title}
+            </p>
+          </div>
+        ))}
+      </Tab>
+    </Tabs>
   );
 };
 
