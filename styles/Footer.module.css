@@ -1,0 +1,31 @@
+.footerblue {
+    background-color: #096691;
+    overflow: hidden;
+}
+
+.footerlink {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.footerlink:hover{
+    color: #fff;
+}
+
+.socialicons svg{
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.45);
+    border-radius: 50%;
+}
+
+.joinbutton{
+    background-color: rgb(1,138,200);
+    color: #fff;
+    border: 1px solid rgb(1,138,200);
+}
+
+.headers{
+    font-weight: 600;
+}

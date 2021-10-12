@@ -1,0 +1,179 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  :root {
+    --main-blue: rgb(0 114 161);
+    --text-color: #514949;
+    --about-BG: #0072a114;
+    --about-text: #808080;
+    --scope1: #ffe3e1;
+    --scope2: #f0dcf8;
+    --scope3: #f0f6f7;
+    --scope4: #dcf4f8;
+    --scope5: #f2ebe9;
+    --scope6: #f0f6f7;
+  }
+  
+  /* General styles*/
+  .about h3,
+  .scope h3 {
+    color: var(--main-blue);
+    font-size: 0.87rem;
+    margin-bottom: 1rem;
+  }
+  
+  .about h2,
+  .scope h2,
+  .banner h2 {
+    font-size: 1.5rem;
+  }
+
+  
+  .hero a,
+  .scope a,
+  .banner a {
+    text-decoration: none;
+    font-size: 1rem;
+    background-color: var(--main-blue);
+    color: white;
+    padding: 0.68rem 1.75rem;
+    border: 2px solid var(--main-blue);
+    transition: all 0.1s ease-in-out;
+  }
+  
+  .hero a:hover,
+  .scope a:hover,
+  .banner a:hover {
+    background-color: transparent;
+    color: var(--main-blue);
+    border: 2px solid var(--main-blue);
+    text-decoration: none;
+  }
+  
+  .about h4,
+  .scope h4 {
+    font-size: 1.12rem;
+  }
+  
+  .about p {
+    font-size: 1rem;
+    color: var(--about-text);
+  }
+  
+  /* Hero */
+  .hero {
+    color: var(--text-color);
+  }
+  
+  .hero h1 {
+    font-size: 2rem;
+  }
+  
+  .hero p {
+    font-size: 0.95rem;
+  }
+  /* Hero */
+  
+  /* About */
+  .about {
+    background-color: var(--about-BG);
+    color: var(--text-color);
+  }
+  
+  .about__link a {
+    text-decoration: none;
+    font-size: 1rem;
+    background-color: var(--main-blue);
+    color: white;
+    padding: 0.68rem 1.75rem;
+    border: 2px solid var(--main-blue);
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+  }
+  
+  .about__link a:hover {
+    background-color: transparent;
+    color: var(--main-blue);
+    border: 2px solid var(--main-blue);
+    text-decoration: none;
+  }
+  
+  /* About */
+  
+  /* Scope */
+  
+  /* .scope hr {
+    } */
+  
+  .scope__languages {
+    color: #514949;
+    opacity: 0.5;
+    font-size: 0.87rem !important;
+  }
+  
+  .scope__1 {
+    background-color: var(--scope1);
+  }
+  
+  .scope__2 {
+    background-color: var(--scope2);
+  }
+  
+  .scope__3 {
+    background-color: var(--scope3);
+  }
+  
+  .scope__4 {
+    background-color: var(--scope4);
+  }
+  
+  .scope__5 {
+    background-color: var(--scope5);
+  }
+  
+  .scope__6 {
+    background-color: var(--scope6);
+  }
+  
+  .scope p {
+    font-size: 1rem;
+    color: var(--text-color);
+  }
+  
+  .scope .card {
+    border: none;
+  }
+  /* Scope */
+  
+  /* Banner  */
+  .banner .container {
+    background-image: url(../assets/enroll.png);
+    padding: 4rem 0rem;
+  }
+  
+  .banner h2 {
+    color: white;
+  }
+  
+  /* Banner  */
+  
+  @media (max-width: 991px) {
+    body {
+      position: relative;
+      overflow-x: hidden;
+    }
+  
+    body section.banner:last-of-type .container {
+      position: relative;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      width: 100vw !important;
+      max-width: 100vw !important;
+    }
+  }
+  

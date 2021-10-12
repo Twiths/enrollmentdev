@@ -1,0 +1,81 @@
+.navigation {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+  }
+  
+  .activeLink {
+    color: rgb(0 114 161) !important;
+    font-weight: 500;
+  }
+  
+  .navigation header {
+    background: rgb(0 114 161 / 6%);
+    transition: all 0.5s;
+    width: 100%;
+  }
+  .navigation header .h-btn {
+    background: rgb(0 114 161);
+    border-radius: 0;
+  }
+  
+   
+  .navigation .container {
+    max-width: 1238px !important;
+    overflow: hidden !important;
+  }
+  
+  .navigation header {
+    background: rgb(0 114 161 / 3%);
+    transition: all 0.5s;
+  }
+  
+  .navigation .nav-link:not(:last-of-type):hover {
+    color: rgb(0 114 161) !important;
+  }
+  
+  .navigation .nav-link:last-of-type:hover,
+  .navigation .nav-link:last-of-type:active {
+    background-color: transparent;
+    color: rgb(0 114 161) !important;
+    border-bottom: 1px solid rgb(0 114 161);
+    text-decoration: none;
+  }
+  
+  .navigation .nav-button:hover,
+  .navigation .nav-button:active {
+    background-color: transparent !important;
+    color: rgb(0 114 161) !important;
+    border: 1px solid rgb(0 114 161) !important;
+  }
+  
+  
+  .navigation .container {
+    max-width: 1238px;
+    overflow: hidden;
+  }
+  
+  .navigation .heading-title {
+    padding: 4rem 0 7rem 0 !important;
+  }
+  
+  .navigation header {
+    transition: all 0.5s;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  .navigation header .h-btn {
+    background: rgb(0 114 161);
+    border-radius: 0;
+  }
+  
+  .navigation .custom-btn {
+    background-color: rgb(0 114 161);
+    padding: 8px 20px !important;
+    color: #ffff !important;
+    display: inline-block;
+  }
+  
