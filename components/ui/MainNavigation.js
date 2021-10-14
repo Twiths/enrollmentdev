@@ -15,7 +15,7 @@ const MainNavigation = () => {
     <nav className="navbar navbar-expand-lg navbar-light bg-light sticky-top">
       <div className="container justify-content-between">
         <div className="d-flex">
-          <Link className="navbar-brand" href="/" pass>
+          <Link className="navbar-brand" href="/" passHref>
             <Image
               src={logo}
               alt="EDU Logo"

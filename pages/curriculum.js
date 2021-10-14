@@ -43,11 +43,11 @@ const Curriculum = () => {
             <div className=" c-home32-cont tab-content mt-2">
               <h3 className="text-center c-track-title mt-4">View Curriculums By Tracks</h3>
               <p className="c-track-text text-center my-3">
-                These are some of the topics that'll be taught during the program. Note that this is
+                These are some of the topics that will be taught during the program. Note that this is
                 not an exhaustive list.
               </p>
             </div>
-            <Tabs>
+            <Tabs className="mt-4">
               <Tab eventKey="html" title="HTML">
                 {frontend["html"].map((data, idx) => (
                   <div className="c-home32-cont" key={idx}>

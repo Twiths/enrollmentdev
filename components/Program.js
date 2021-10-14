@@ -1,3 +1,5 @@
+import Link from "next/link"
+
 const Program = () => {
     return (
       <section className="scope my-5">
@@ -14,7 +16,7 @@ const Program = () => {
         "
           >
             <h2 className="mb-4 mb-lg-0">These are the tracks available in the Outbox Edu</h2>
-            <a href="/curriculum"> View Curriculum </a>
+            <Link href="/curriculum"> View Curriculum </Link>
           </div>
           <div className="row">
             <div className="col-md-6 col-lg-6 col-xl-4 col-12">

@@ -5,9 +5,7 @@ import Layout from "../components/layout/Layout";
 import Hero from "../components/Hero";
 import About from "../components/About";
 import Program from "../components/Program";
-import OutboxEvents from "../components/ui/OutboxEvents";
 import DemoCarouse from "../components/ui/Carousel";
-import EventsList from "../components/ui/SharedEvents/EventsList";
 
 export default function Home() {
   return (

@@ -8,7 +8,7 @@ const Navigation = () => {
       <header>
         <div className="container">
           <nav className="navbar navbar-expand-lg navbar-light px-2">
-            <Link className="navbar-brand" href="/">
+            <Link className="navbar-brand" href="/" passHref>
               <Image src={logo} alt="brand logo" className="brand-logo" width="50" height="50"/>
             </Link>
             <button
